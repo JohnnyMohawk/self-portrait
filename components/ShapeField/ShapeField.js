@@ -34,7 +34,7 @@ export default class ShapeField extends Component {
 
         <div className={style.shapeCluster02}>
           <img src={faceBg} alt="face color" style={{width: 150, marginLeft: 60}} />
-          <Parallax translateY={[-390, 30]} className={style.triangleBig}>
+          <Parallax translateY={[-420, 30]} className={style.triangleBig}>
             <img src={glasses} alt="glasses" style={{width: 151, marginLeft: 63}} />
           </Parallax>
           <Parallax translateY={[4800, -640]} style={{width: 150, marginLeft: 60}} className={style.triangleSmall}>

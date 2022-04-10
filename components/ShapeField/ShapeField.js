@@ -27,7 +27,7 @@ export default class ShapeField extends Component {
             <img src={glassesPink} alt="pink glasses" style={{width: 169, marginLeft: -60, marginTop: 6}} />
           </Parallax>
             <img src={faceLine} alt="face lines" style={{width: 300, marginLeft: -125, marginTop: 20}} />
-          <Parallax translateY={[-100, -1300]} className={style.hemiRight}>
+          <Parallax translateY={[-100, -1350]} className={style.hemiRight}>
             <img src={mustache} alt="mustache" style={{width: 120, marginLeft: -35, marginTop: -120}} />
           </Parallax>
         </div>
@@ -54,10 +54,10 @@ export default class ShapeField extends Component {
 
         <div className={style.shapeCluster04}>
           <img src={hatLine} alt="hat lines" style={{width: 270, marginLeft: -45, marginTop: 81}} />
-          <Parallax translateY={[-60, 60]} className={style.triangle}>
+          <Parallax translateY={[-70, 60]} className={style.triangle}>
             <img src={facePink} alt="pink face" style={{width: 140, marginLeft: 20, marginTop: 150}} />
           </Parallax>
-          <Parallax translateY={[-300, 30]} className={style.hemiRight}>
+          <Parallax translateY={[-310, 30]} className={style.hemiRight}>
             <img src={mustache} alt="mustache" style={{width: 100, marginLeft: -85, marginTop: 670}} />
           </Parallax>
         </div>

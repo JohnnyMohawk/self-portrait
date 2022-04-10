@@ -1,0 +1,93 @@
+@import "../../styles/colors";
+
+.root {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 5em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $plum;
+  font-weight: 500;
+}
+
+.container {
+  position: relative;
+  width: 25em;
+}
+
+.face {
+  position: relative;
+  z-index: 4;
+}
+
+.faceOutline {
+  position: absolute;
+  top: 0%;
+  z-index: 5;
+}
+
+.faceItems,
+.hatOutline {
+  position: absolute;
+  top: 0%;
+  z-index: 6;
+}
+
+.mainBg,
+.shirt {
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+}
+
+.rings {
+  position: absolute;
+  top: 0%;
+  z-index: 3;
+}
+
+.hat {
+  position: absolute;
+  top: 0%;
+  z-index: 5;
+}
+
+.gradient {
+  z-index: 1;
+}
+
+.circleInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid $plum;
+  border-radius: 50%;
+}
+
+.outerCircle {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 50%;
+  animation: rotate 15s linear infinite;
+  top: 2px;
+}
+
+@keyframes rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

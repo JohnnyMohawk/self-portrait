@@ -1,0 +1,70 @@
+@import "../../styles/colors";
+
+.root {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25vh 2em 10vh 2em;
+  background-color: 	#a1a1a1;
+  // background-color: $plum;
+}
+
+.container {
+  position: relative;
+  width: 25em;
+  margin-right: 10vw;
+  flex-shrink: 0;
+}
+
+.angleTop {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+}
+
+.headline {
+  font-size: 2em;
+  color: black;
+}
+
+h3 {
+  margin-left: 15px;
+}
+
+p {
+  color: #fff;
+}
+
+.copy {
+  margin: 0 auto;
+  flex-grow: 1;
+  text-align: left;
+  max-width: 500px;
+
+  code {
+    padding: 0.4em 1em;
+    font-size: 0.8em;
+    color: white;
+  }
+}
+
+.trianglesPurple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.barTop {
+  margin-left: -0.8em;
+  margin-top: -15px;
+  margin-bottom: -20px;
+  width: 35em;
+  height: 1.5em;
+  border-top: 0.45em solid #ff00ff;
+  border-bottom: 0.45em solid #ff00ff;
+  transform: skew(-45deg);
+}

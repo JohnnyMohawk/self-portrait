@@ -13,7 +13,7 @@ import innerWhtRing from './images/Inner-white-ring.png'
 const Marquee = () => (
   <div className={style.root}>
     <Svg svg={divider} className={style.divider} />
-    <Parallax className={style.dividerParallax} translateY={[-65, -32]}>
+    <Parallax className={style.dividerParallax} translateY={[-64.9, -32]}>
       <Svg svg={divider1} className={style.divider} />
     </Parallax>
     <Parallax className={style.dividerParallax} translateY={[-65.12, -45]}>

@@ -1,11 +1,22 @@
 @import "../../styles/colors";
 
+@keyframes transitionIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .root {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  animation: transitionIn 5s;
 }
 
 .scroll {

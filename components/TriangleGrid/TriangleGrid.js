@@ -35,9 +35,9 @@ const TriangleGrid = () => (
     </article>
     <div className={style.container}>
       <Parallax translateY={[-25, 25]}>
-        <img src={saveGoodFlip} alt="faceBg" id="faceBg" style={{width: 275, marginTop: 0, marginBottom: 0, marginLeft: 0, opacity: 0.7}} />
+        <img src={saveGoodFlip} alt="faceBg" id="faceBg" style={{width: 275, marginTop: 0, marginBottom: 0, marginLeft: -2, opacity: 0.7}} />
       </Parallax>
-      <Parallax translateX={[-13, 13]} translateY={[-130, 50]}>
+      <Parallax translateX={[-13, 13]} translateY={[-200, 50]}>
         <img src={saveGood} alt="faceBg" id="faceBg" style={{width: 275, marginTop: -1700, marginBottom: 0, marginLeft: 20, opacity: 0.7}} />
       </Parallax>
     </div>

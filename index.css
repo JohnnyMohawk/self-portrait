@@ -1,3 +1,37 @@
 :root {
-  cursor: pointer;
+  cursor: url(./public/cursor-dot-mag.png), auto;
+  -webkit-animation: cursor 1500ms infinite;
+  animation: cursor 1500ms infinite;
+}
+
+@-webkit-keyframes cursor {
+  0% {cursor: url(./public/cursor-dot-mag.png), auto;}
+  8% {cursor: url(./public/cursor-dot-mag1.png), auto;}
+  16% {cursor: url(./public/cursor-dot-mag2.png), auto;}
+  24% {cursor: url(./public/cursor-dot-mag3.png), auto;}
+  32% {cursor: url(./public/cursor-dot-mag4.png), auto;}
+  40% {cursor: url(./public/cursor-dot-mag5.png), auto;}
+  48% {cursor: url(./public/cursor-dot-blk.png), auto;}
+  56% {cursor: url(./public/cursor-dot-mag5.png), auto;}
+  64% {cursor: url(./public/cursor-dot-mag4.png), auto;}
+  72% {cursor: url(./public/cursor-dot-mag3.png), auto;}
+  80% {cursor: url(./public/cursor-dot-mag2.png), auto;}
+  88% {cursor: url(./public/cursor-dot-mag1.png), auto;}
+  100% {cursor: url(./public/cursor-dot-mag.png), auto;}
+}
+
+@keyframes cursor {
+  0% {cursor: url(./public/cursor-dot-mag.png), auto;}
+  8% {cursor: url(./public/cursor-dot-mag1.png), auto;}
+  16% {cursor: url(./public/cursor-dot-mag2.png), auto;}
+  24% {cursor: url(./public/cursor-dot-mag3.png), auto;}
+  32% {cursor: url(./public/cursor-dot-mag4.png), auto;}
+  40% {cursor: url(./public/cursor-dot-mag5.png), auto;}
+  48% {cursor: url(./public/cursor-dot-blk.png), auto;}
+  56% {cursor: url(./public/cursor-dot-mag5.png), auto;}
+  64% {cursor: url(./public/cursor-dot-mag4.png), auto;}
+  72% {cursor: url(./public/cursor-dot-mag3.png), auto;}
+  80% {cursor: url(./public/cursor-dot-mag2.png), auto;}
+  88% {cursor: url(./public/cursor-dot-mag1.png), auto;}
+  100% {cursor: url(./public/cursor-dot-mag.png), auto;}
 }

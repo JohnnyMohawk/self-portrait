@@ -75,12 +75,13 @@
 
 .outerCircle {
   position: absolute;
-  height: 300px;
-  width: 300px;
+  height: 260px;
+  width: 260px;
   background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
   border-radius: 50%;
   animation: rotate 15s linear infinite;
-  top: 2px;
+  top: 5px;
+  left: 20px;
 }
 
 @keyframes rotate {

@@ -28,7 +28,7 @@ export default class ShapeField extends Component {
           </Parallax>
             <img src={faceLine} alt="face lines" style={{width: 300, marginLeft: -125, marginTop: 20}} />
           <Parallax translateY={[-100, -1100]} className={style.hemiRight}>
-            <img src={mustache} alt="mustache" style={{width: 120, marginLeft: -15, marginTop: -100}} />
+            <img src={mustache} alt="mustache" style={{width: 120, marginLeft: -35, marginTop: -120}} />
           </Parallax>
         </div>
 

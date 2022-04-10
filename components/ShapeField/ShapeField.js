@@ -24,7 +24,7 @@ export default class ShapeField extends Component {
             className={style.hemiLeft}
             slowerScrollRate
           >
-            <img src={glassesPink} alt="pink glasses" style={{width: 169, marginLeft: 0}} />
+            <img src={glassesPink} alt="pink glasses" style={{width: 169, marginLeft: -100}} />
           </Parallax>
             <img src={faceLine} alt="face lines" style={{width: 300, marginLeft: -125, marginTop: 20}} />
           <Parallax translateY={[-100, -60]} className={style.hemiRight}>

@@ -47,8 +47,10 @@
     color: $tan;
     text-decoration: none;
     font-weight: bold;
+    cursor: url(../../public/cursor-dot-hover.png), auto;
     &:hover {
       color: $purple;
+      cursor: url(../../public/cursor-dot-hover.png), auto;
     }
   }
 
@@ -67,6 +69,7 @@
     font-weight: 500;
     margin-right: 1em;
     transition: all 0.3s ease-in-out;
+    cursor: url(../../public/cursor-dot-hover.png), auto;
 
     &:hover {
       background-color: #ff00ff;

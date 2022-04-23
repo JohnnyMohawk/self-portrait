@@ -25,7 +25,7 @@ const TriangleGrid = () => (
         I am an artist and software engineer from Chicago, Illinois, USA. My art looks at dark or heavy subjects with bright colors and a light heart.
       </p>
       <p>
-        This piece is an exploration of front-end developer tools as visual art media. It is also an exercise in shameless self-promotion. To see more of my work, click the button below. 
+        This piece is an exploration of front-end developer tools as visual art media. The text is advice from my late father on how to improve on a design: “Tear it all apart. What are you left with? Save the good stuff.” - My Dad 
       </p>
       <p>
         <a className="btn" href="https://www.johnnelsonalden.com/" target="_blank" rel="noopenner noreferrer">
